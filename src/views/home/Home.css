@@ -1,0 +1,35 @@
+.home {
+  padding: 1rem;
+  margin: 1rem 2rem;
+  border: 1px solid #111;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.weather {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  column-gap: 1rem;
+}
+
+.weather__forecast {
+  padding: 0 1rem;
+  max-height: 502px;
+  overflow-y: auto;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #aaa;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #111;
+  cursor: pointer;
+}

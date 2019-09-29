@@ -1,0 +1,31 @@
+.province {
+  border: 1px solid #aaa;
+  padding: 1em;
+  margin-bottom: 5px;
+}
+
+.province__name {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.province__cities {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 0.5em; 
+  row-gap: 0.5em;
+}
+
+.city {
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+.city:hover {
+  border: 1px solid #ccc;
+}
+
+.city a {
+  cursor: pointer;
+}
